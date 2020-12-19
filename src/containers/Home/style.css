@@ -1,0 +1,52 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', Verdana, sans-serif;
+}
+.Home-logo{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Home-logo-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.chatappheading{
+font-family: Arial, Helvetica, sans-serif !important;
+    color: #021B79;
+    font-size: 20px;
+}
+.Home-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logoimage{
+    width: 160px;
+    height: 80px;
+}
+.Facebooklogin{
+    background: #5433FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #20BDFF, #3b2994);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #20BDFF, #3b2994); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+padding: 10px;
+color: white;
+font-size: 15px;
+cursor: pointer;
+font-weight: bold;
+width: 180px;
+border: 1px solid ;
+border-bottom-left-radius: 13px;
+border-top-right-radius: 13px;
+border-top-left-radius: 13px;
+}
+.Facebooklogin:hover{
+    opacity: 0.9;
+  
+}
+.Facebooklogin:focus{
+    outline: none;
+}

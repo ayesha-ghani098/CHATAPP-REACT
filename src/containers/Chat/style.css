@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css";
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', Verdana, sans-serif;
+}
+.chatpage{
+display: flex;
+
+}
+.container{
+    background-color: rgb(231, 237, 241);
+}
+.container-2{
+    padding: 10px;
+}
+.chat{
+    background:#fff; 
+    max-width: 400px;
+    height: 630px;
+    /* padding: 20px; */
+    margin-right: 10px;
+   border-radius: 5px;
+   
+}
+.chat-heading{
+display: flex;
+justify-content: space-between;
+}
+.chat-heading>h2{
+    margin-left: 20px;
+ padding: 2px;
+    font-weight: 500;
+    color: #6291e7;
+    margin-top: 22px;
+    
+}
+.MyProfile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #bcd7e0;
+}
+.profileimage{
+    width: 100;
+    height: 100;
+    border-radius: 25px;
+}
+.profileheading{
+    font-weight: bold;
+    margin-left: 30px;
+    font-size: 17px;
+    color: #6291e7;
+}
+
+.userlist{
+border-bottom: 1px solid #bcd7e0;
+/* padding-bottom: 10px; */
+ 
+}
+.userdiv{
+    padding: 10px;
+    cursor: pointer;
+}
+.userdiv:hover{
+    background-color: rgb(231, 237, 241);
+}
+.uuserlist{
+  
+    padding-left: 10px;
+     
+    }
+.user-img{
+    width: 100;
+    height: 100;
+    border-radius: 25px;
+}
+
+.userslist{
+    /* display: flex; */
+    margin-top: 20px;
+list-style: none;
+color:#6291e7;
+
+
+}
+.username{
+   margin-top: 5px;
+    display: inline;
+    margin-left: 10px;
+}
+
+
+
+.chatsection{
+
+    
+    color:#6291e7;
+  
+    height: 630px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.username2{
+
+    display: inline;
+    margin-left: 10px;
+}
+
+.messages-list{
+    padding-top: 10px;
+
+    height: 500px;
+    width: 700px;
+  
+}
+.v-user{
+    list-style: none;
+    box-shadow: 2px 3px #bcd7e0;
+    background-color: #6291e7;
+    margin-bottom: 10px;
+    display: flex;
+    width: 70%;
+    color: #fff;
+    margin-left: 30%;
+    padding: 10px 5px;
+    border-radius: 7px;
+   
+}
+.u-user{
+    display: flex;
+    padding: 10px 5px;
+    box-shadow: 2px 3px #d6d4d4;
+  background-color: #fff;
+    list-style: none;
+    margin-bottom: 10px;
+    width: 70%;
+    border-radius: 7px;
+ color:black;
+}
+input{
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #c5d3d8;
+    border-radius: 7px;
+}
+input:focus{
+    outline: none;
+}
+.send{
+    display: inline;
+    width: 50px;
+    height: 40px;
+  
+}
+.logout{
+  
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
+    float: right;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+
+.error{
+    display: none;
+}
+
+@media only screen and (max-width: 800px) {
+ .container-2{
+     display: none;
+ }
+.error{
+    display: block;
+}
+
+  }
+
+@media only screen and(max-width: 1000px){
+    .v-user{
+        margin-left: 0%;
+    }
+}
+
+
+@media only screen and (max-width: 1200px) {
+
+ .v-user{
+    list-style: none;
+    box-shadow: 2px 3px #bcd7e0;
+    background-color: #6291e7;
+    margin-bottom: 10px;
+    width: 50%;
+    color: #fff;
+display: flex;
+margin-left: 35%;
+    padding: 10px 5px;
+    border-radius: 7px;
+   
+}
+.u-user{
+    padding: 10px 5px;
+    box-shadow: 2px 3px #d6d4d4;
+  background-color: #fff;
+    list-style: none;
+    display: flex;
+    margin-bottom: 10px;
+    width: 50%;
+    border-radius: 7px;
+ color:black;
+}
+ 
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
